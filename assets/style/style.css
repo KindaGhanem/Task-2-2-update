@@ -11,6 +11,7 @@
     position: fixed;
     box-shadow: 1px 1px 1px 1px rgb(250, 248, 248);
     z-index: 3;
+    top: 0;
 }
 .ul{
     display: flex;
@@ -65,7 +66,7 @@
 .search{
     border-radius: 0 25px 0 25px;
     box-shadow: 2px 2px 2px 2px black;
-    width: 500px;
+    width: 340;
     height: 50px;
     font-size: 25px;
 }
@@ -263,3 +264,99 @@ box-shadow: 1px 1px 3px 3px rgb(95, 92, 92);
     background-color: #000000;
 }
 /* the end of footer */
+@media (min-width:656px) and (max-width:1200px){
+    .ch2{
+        font-size: 80px;
+    }
+    .search{
+        margin: 20px 0 20px 20px;
+    }
+}
+@media (min-width:560px) and (max-width:655px){
+    .ch2{
+        font-size: 80px;
+    }
+    .search{
+        margin: 20px 0 20px 20px;
+    }
+    .find , .bord , .add{
+    width: 500px;
+}
+    #about div img , #menu img , #find img {
+    width: 500px;
+
+}
+    #about .h1{
+    margin-left: 90px;
+}
+    .food , .content{
+        width: 500px;
+    }
+    .fyl p{
+        width: 500px;
+    }
+    /* .div-form{
+        width: 350px;
+    } */
+    .form{
+        width: 500px;
+    }
+    .form input{
+        width: 450px;
+    }
+    .form #button{
+        margin-left: 100px;
+    }
+
+}
+@media (min-width:340px) and (max-width:559px){
+    .ul{
+        padding: 4px;
+    }
+    .ch2{
+        font-size: 80px;
+    }
+    .search{
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .but-search{
+        margin-bottom: 70px;
+        margin-left: 120px;
+        width: 100px;
+    }
+    .ch3 , .ch4{
+        font-size: 16px;
+    } 
+    .find , .bord , .add{
+        width: 340px;
+
+    }
+    #about div img , #menu img , #find img {
+        width: 340px;
+    }
+    #about .h1{
+        margin-left: 60px;
+    }
+    .food , .content{
+        width: 340px;
+    }
+    .food button{
+        width: 300px;
+    }
+    .fyl p{
+        width: 340px;
+
+    }
+    .form{
+        width: 340px;
+    }
+    .form input{
+        width: 340px;
+    }
+    .form #button{
+        margin-left: 270px;
+    }
+
+    }
